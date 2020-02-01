@@ -1,10 +1,19 @@
-h2 {
-	
-	color: red;
+#djf-nav {
+
+	background-color: darkolivegreen;
+	color: floralwhite;
 
 }
 
-.hi {
+#djf-home {
 
-	color:blue;
+	color: floralwhite;
+
+
+}
+
+body {
+
+	background-color: floralwhite;
+
 }
