@@ -1,0 +1,25 @@
+.djf-navbar {
+
+    color: lightsteelblue;
+    background-color: peachpuff;
+    font-size: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+}
+
+.djf-navbar-brand {
+
+    color: steelblue;
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    font-size: 3.75rem;
+    line-height: inherit;
+    white-space: nowrap;
+
+}
+
+.djf-navbar-brand:hover, .djf-navbar-brand:focus {
+    text-decoration: none;
+}
