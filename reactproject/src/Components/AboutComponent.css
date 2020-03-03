@@ -1,27 +1,16 @@
+.djf-about-size {
 
-
-.bird {
-    background-image: url('/public/fav/favicon-16x16.png');
-    background-size: auto 100%;
-    width: 88px;
-    height: 125px;
-    will-change: background-position;
-}
-
-@keyframes fly-cycle {
-    100% {
-        background-position: -900px 0;
-    }
+    padding: 2rem;
 
 }
 
+.djf-about-text {
 
+    /*color: rgb(233, 227, 206);*/
 
-.bird--one {
-    animation-duration: 1s;
-    animation-delay: -0.5s;
-}
-.bird--two {
-    animation-duration: 0.9s;
-    animation-delay: -0.75s;
+    color: rgb(27,57,2);
+
+    font-weight: bolder;
+    font-size: 2rem;
+
 }

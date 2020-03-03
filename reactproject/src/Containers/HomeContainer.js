@@ -23,14 +23,13 @@ class HomeContainer extends React.Component {
 
             <LandingComponent/>
 
-
             <NavbarComponent/>
 
             <div className="container">
 
-                <div className="d-flex flex-row justify-content-center">
+                <div className="row">
 
-                    <div className="d-flex flex-column">
+                    <div className="col">
 
                         <AboutComponent/>
 

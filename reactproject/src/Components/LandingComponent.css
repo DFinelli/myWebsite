@@ -1,5 +1,5 @@
 #djf-LandingComponent {
-    background: url("./gb.jpeg")no-repeat center center fixed;
+    background: url("./gb_comp.jpeg")no-repeat center center fixed;
     height: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -7,4 +7,58 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.djf-page-mask {
+
+    height: 100%;
+
+}
+
+.djf-logo-position {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 50vh;
+
+}
+
+.djf-box {
+
+    color: rgb(27,57,2);
+    background-color: rgba(233, 227, 206, 0.6);
+
+    border-radius: 25px;
+
+    padding: .05rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+.djf-logo {
+
+    font-size: 2.5rem;
+
+}
+
+.fa-home {
+
+    color: rgb(27,57,2);
+    font-size: 2.15rem;
+
+}
+
+.djf-home-button {
+
+    border-radius: 25px;
+
+    background-color: rgba(233, 227, 206, 0.7);
+
+    margin-top: 3rem;
+    padding: .35rem;
+
 }
