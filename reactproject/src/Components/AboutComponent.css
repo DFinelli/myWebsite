@@ -14,3 +14,16 @@
     font-size: 2rem;
 
 }
+
+.djf-about-text-a {
+
+    color: rgb(27,57,2);
+    background-color: rgba(233, 227, 206, .5);
+
+}
+
+.djf-about-text-a:hover {
+
+    color: inherit;
+
+}

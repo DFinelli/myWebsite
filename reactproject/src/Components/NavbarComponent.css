@@ -23,3 +23,15 @@
     padding-right: 3rem;
 
 }
+
+.djf-navbar-a {
+
+    color: inherit;
+}
+
+.djf-navbar-a:hover {
+
+    color: rgb(233, 227, 206);
+    text-decoration: none;
+
+}

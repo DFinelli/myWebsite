@@ -1,5 +1,5 @@
 #djf-LandingComponent {
-    background: url("./gb_comp.jpeg")no-repeat center center fixed;
+    background: url("./img3.jpg")no-repeat center center fixed;
     height: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -50,6 +50,10 @@
     color: rgb(27,57,2);
     font-size: 2.15rem;
 
+}
+
+.fa-home:hover {
+    cursor: pointer;
 }
 
 .djf-home-button {

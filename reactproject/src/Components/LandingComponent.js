@@ -15,7 +15,14 @@ const LandingComponent = () =>
                 </div>
 
                 <div className="djf-home-button">
-                    <i className="fa fa-home d-flex align-self-center"/>
+                    <i className="fa fa-home d-flex align-self-center"
+                       onClick={
+                           () => {
+                               const anchor = document.querySelector('#djf-nav-scroll-land');
+                               anchor.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                                }
+                       }
+                    />
                 </div>
 
             </div>

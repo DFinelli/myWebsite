@@ -4,6 +4,7 @@ import AboutComponent from "../Components/AboutComponent";
 import LinksComponent from "../Components/LinksComponent";
 import LandingComponent from "../Components/LandingComponent";
 import "./HomeContainer.css"
+import BookComponent from "../Components/BookComponent";
 
 class HomeContainer extends React.Component {
 
@@ -32,6 +33,7 @@ class HomeContainer extends React.Component {
                     <div className="col">
 
                         <AboutComponent/>
+                        <BookComponent/>
 
                     </div>
 
