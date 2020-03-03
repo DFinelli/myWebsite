@@ -3,9 +3,10 @@ import {createStore} from "redux";
 import {Provider} from "react-redux";
 import {BrowserRouter as Router, Route, Link} from "react-router-dom";
 
-
 import HomeContainer from "./HomeContainer"
 import AboutComponent from "../Components/AboutComponent";
+import "./RoutingContainer.css"
+
 class RoutingContainer extends React.Component {
 
     constructor(props) {
@@ -20,7 +21,8 @@ class RoutingContainer extends React.Component {
 
     render = () => (
 
-        <div>
+        <div id="djf-RoutingContainer-height">
+
 
             <Router>
 
