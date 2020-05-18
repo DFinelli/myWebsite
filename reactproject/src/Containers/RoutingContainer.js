@@ -23,7 +23,6 @@ class RoutingContainer extends React.Component {
 
         <div id="djf-RoutingContainer-height">
 
-
             <Router>
 
                 <Route
